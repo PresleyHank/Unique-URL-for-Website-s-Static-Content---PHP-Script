@@ -7,8 +7,8 @@ The script is fundamentally utilized for producing unique and irregular url with
 
 3. Change the values of attempts & session time in main_key.php according to your needs
 
-4. Input the details of your downloadable file or webpage in unique_url key.php file, it will generate the unique url for every user while storing every key in sql database
+4. Input the details of your downloadable file or webpage in unique_url_key.php file, it will generate the unique url for every user while storing every key in sql database
 
-5. Send the unique link generated from unique_url key.php file to user, it will follows the instructions mentioned by you in main_key.php for session out and valid attempts to the file or webpage
+5. Send the unique link generated from unique_url_key.php file to user, it will follows the instructions mentioned by you in main_key.php for session out and valid attempts to the file or webpage
 
-6. If there is only need to protect static webpage with unique url & session rather than some downloadable file then just redirect the user to unique_url key.php file with providing some button
+6. If there is only need to protect static webpage with unique url & session rather than some downloadable file then just redirect the user to unique_url_key.php file with providing some button

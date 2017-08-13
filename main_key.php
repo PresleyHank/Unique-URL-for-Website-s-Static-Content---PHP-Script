@@ -36,7 +36,6 @@ require ('dbconnect.php');
 				
 // Debug		echo "Key validated.";
 
-// Force the browser to start the download automatically
 
 /*
 	Variables: 

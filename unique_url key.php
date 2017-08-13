@@ -4,6 +4,7 @@
 <head>
 <title>Your Website Title</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="author" content="ilLuSion-007">
 <style type="text/css">
 #wrapper {
 	font: 15px Verdana, Arial, Helvetica, sans-serif;
@@ -20,7 +21,7 @@
 <body>
 <div id="wrapper">
 
-<center><h1>Fill your front page with your description</h1></center>
+<center><h1>Fill your front page with your input description</h1></center>
 
 <?php
 // Generate unique keys for the purpose of protecting site's main directory link while using download.php? in prior of every unique key

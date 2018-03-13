@@ -21,7 +21,7 @@
 <body>
 <div id="wrapper">
 
-<center><h1>Fill your front page with your input description</h1></center>
+/* <center><h1>Fill your front page with your input description</h1></center> */
 
 <?php
 // Generate unique keys for the purpose of protecting site's main directory link while using download.php? in prior of every unique key
@@ -46,7 +46,9 @@ require ('dbconnect.php');
 //	echo "time: " . $time . "<br />";
 	
 // Generate the link
-	echo "<p>Here's a new download link:</p>";
+	// echo "<p>Here's a new download link:</p>";
+	
+	/* On Output Buffering in PHP Modules unless use ob_start() prior the code, or remove unwanted html response */
 	header("Location:download.php?id=$key");
 
 	
